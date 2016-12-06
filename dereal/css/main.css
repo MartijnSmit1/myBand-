@@ -1,0 +1,97 @@
+/*
+ * Dit is de custom style sheet van jouw website
+ *
+ */
+
+body {
+	margin: 0;
+	height: 100%;
+	background-image: url(achtergrond.jpg);
+
+}
+
+.desc {
+
+	background-color: #fff;
+	border: 1px solid #000;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: -20px;
+	width: 200px;
+		
+}
+
+h1{
+	margin-left: 1%;
+}
+
+#sideBar ul{
+	background-color: black;
+	width: 100px;
+	float: right;
+	top: 70px;
+	right: 0;
+	position: fixed;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#sideBar ul li a{
+	text-decoration: none;
+	/*padding: 1em;*/
+	font-size: 125%;
+	color: #FFD51D;
+	padding: 10%;
+	display: block;
+}
+#sideBar ul li a:hover{
+	background-color: #FFD51D;
+
+}
+
+#berichten{
+	background-color: #FFD51D;
+	width: 600px;
+	height: 500px;
+	margin-right: auto;
+	border: 2px solid black;
+	display: block;
+	float: left;
+	margin-left: 10px;
+	border-radius: 20px;
+}
+#titelH{
+	text-align: center;
+	font-size: 200%;
+	margin-top: 0px;
+	background-color: lightgray;
+	margin-left: 5px;
+	border-radius: 20px;
+
+}
+#imageH{
+	max-width: 500px;
+	max-height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#infoH, #datumH{
+	margin-left: 5px;
+}
+
+#li {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#li a {
+	padding: 14px 16px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+
+}

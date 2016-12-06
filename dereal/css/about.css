@@ -1,0 +1,31 @@
+.containerAL {
+    width: 600px;
+    height: 425px;
+    border-radius:6px;
+    background-color: #FFD51D;
+    text-align:center;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    color: white;
+}
+
+.headA {
+    border-radius:6px 6px 0px 0px;
+    background-color: black;
+    color:#FAFAFA;
+    margin-top: -18.5px;
+}
+h2 {
+    text-align:center;
+    padding:18px 0 18px 0;
+    font-size: 1.4em;
+    color: #FFD51D;
+}
+
+/*#info{*/
+    /*margin-left: 50px;*/
+    /*margin-right: 50px;*/
+/*}*/

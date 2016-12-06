@@ -1,0 +1,68 @@
+#contact{
+    margin-left: 1%;
+}
+#map{
+    height: 400px;
+    width: 100%;
+    background-color: yellow;
+}
+#contact{
+    margin-bottom: 25px;
+}
+.container {
+    max-width:600px;
+    margin:0 auto;
+    text-align:center;
+    border-radius:6px;
+    background-color:#FFD51D;
+}
+.head {
+    border-radius:6px 6px 0px 0px;
+    background-color: black;
+    color:#FFD51D;
+}
+#h2 {
+    text-align:center;
+    padding:18px 0 18px 0;
+    font-size: 1.4em;
+}
+input {
+    margin-bottom:10px;
+}
+#textareaC {
+    height:100px;
+    margin-bottom:10px;
+}
+input:first-of-type
+{
+    margin-top:35px;
+}
+#naamC, #emailC, #textareaC  {
+    font-size: 1em;
+    padding: 15px 10px 10px;
+    font-family: 'Source Sans Pro',arial,sans-serif;
+    border: 1px solid #cecece;
+    background: #FFD51D;
+    color:black;
+    border-radius: 5px;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    width: 80%;
+    max-width: 600px;
+}
+
+#submit {
+    margin-top:15px;
+    margin-bottom:25px;
+    background-color:#3d3d3d;
+    padding: 12px 45px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    width:30%;
+    color:#fff;
+}
+#submit:hover {
+    background: black;
+}

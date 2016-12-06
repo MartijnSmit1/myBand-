@@ -1,0 +1,42 @@
+.containerAL {
+    width: 600px;
+    height: 425px;
+    border-radius:6px;
+    background-color: #FAFAFA;
+    text-align:center;
+    float: left;
+    left: 15%;
+    position: relative;
+}
+.containerAR {
+    width: 600px;
+    height: 425px;
+    border-radius:6px;
+    background-color:#FAFAFA;
+    text-align:center;
+    margin-left: 650px;
+    left:15%;
+    position: relative;
+    margin-bottom: 20%;
+}
+
+#all{
+    margin-top: 100px;
+}
+
+.headA {
+    border-radius:6px 6px 0px 0px;
+    background-color: #3d3d3d;
+    color:#FAFAFA;
+    margin-top: -18.5px;
+}
+h2 {
+    text-align:center;
+    padding:18px 0 18px 0;
+    font-size: 1.4em;
+}
+
+#info{
+    margin-left: 50px;
+    margin-right: 50px;
+}

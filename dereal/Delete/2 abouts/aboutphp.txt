@@ -1,0 +1,12 @@
+$result2 = array();
+$result3 = array();
+
+for($i = 0; $i  count($result); $i+=2){
+    array_push($result2, $result[$i]);
+};
+for($i = 1; $i  count($result); $i+=2){
+    array_push($result3, $result[$i]);
+};
+$templateParser-assign('result2', $result2);
+$templateParser-assign('result3', $result3);
+
